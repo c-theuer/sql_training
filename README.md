@@ -17,11 +17,13 @@ The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQue
 | Date | Track | Session | Materials |
 | --- | --- | --- | --- |
 | Mon, Oct 5, 2026 | All students | Session 0: SQL basics and BigQuery setup | [Outline](session0_outline.md) · [Answers](session0_answers.md) |
-| Mon, Oct 12, 2026 | Beginner | Session 1: Getting data out | [Outline](beginner/session1_outline.md) · [Answers](beginner/session1_answers.md) |
+| **Tue, Oct 13, 2026** (moved from Mon, Oct 12) | Beginner | Session 1: Getting data out | [Outline](beginner/session1_outline.md) · [Answers](beginner/session1_answers.md) |
 | Mon, Oct 19, 2026 | Beginner | Session 2: Summarizing data | [Outline](beginner/session2_outline.md) · [Answers](beginner/session2_answers.md) |
 | Mon, Oct 26, 2026 | Beginner | Session 3: Combining tables with JOINs | [Outline](beginner/session3_outline.md) · [Answers](beginner/session3_answers.md) |
 | Mon, Nov 2, 2026 | Beginner | Session 4: Real analysis and capstone | [Outline](beginner/session4_outline.md) · [Answers](beginner/session4_answers.md) |
 | Wednesdays (dates TBD) | Advanced | Topics to be set from the [student survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385kfjETJ7csArEWdHt6no6yw/viewform?usp=dialog) | Coming soon |
+
+**Schedule change:** Session 1 has moved from Monday, October 12 to Tuesday, October 13, 2026 because of Indigenous Peoples' Day.
 
 ## Beginner track (Mondays)
 
