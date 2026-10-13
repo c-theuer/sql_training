@@ -1,6 +1,7 @@
 # SQL Training Program
 
 **Instructor:** Catherine Theuer
+
 **Dataset:** theLook eCommerce on BigQuery (`bigquery-public-data.thelook_ecommerce`)
 
 A SQL training series that teaches business and technical users how to use SQL to answer business questions. All exercises run against theLook eCommerce, a fictional online clothing store, in the free BigQuery sandbox.
