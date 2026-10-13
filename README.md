@@ -7,7 +7,7 @@ A SQL training series that teaches business and technical users how to use SQL t
 
 ## Program history
 
-The program started on Monday, October 5, 2026 with Session 0: an introduction to databases vs. data warehouses, how a SELECT statement works, how to limit the data a query retrieves, and setting up BigQuery. Based on that class, the program is splitting into two tracks:
+The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQuery. Based on that class, the program is splitting into two tracks:
 
 - **Beginner track** on Mondays
 - **Advanced track** on Wednesdays
@@ -36,7 +36,7 @@ Each session has a student outline with concepts, examples and exercises, and a 
 
 ## Advanced track (Wednesdays)
 
-A [survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385kfjETJ7csArEWdHt6no6yw/viewform?usp=dialog) goes out to advanced students on Monday, October 12, 2026 to find out what they want to learn. Topics and dates will be set from the results. Directions raised in Session 0 include more technical work (coding with databases) and data science (pandas/polars).
+I'm thinking of doing advanced track on Wednesdays. Please fill out the [survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385kfjETJ7csArEWdHt6no6yw/viewform?usp=dialog) with the list of topics requested on Monday, October 5, 2026. I will put together a schedule based on the results.
 
 ## Getting started
 
@@ -57,7 +57,7 @@ A [survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385k
 
 theLook data is synthetic and regenerated regularly, so query results change over time. The answer files give correct queries rather than fixed numbers.
 
-## More practice
+## References
 
 - [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [DataLemur](https://datalemur.com/)
