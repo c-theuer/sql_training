@@ -8,38 +8,16 @@ A SQL training series that teaches business and technical users how to use SQL t
 
 ## Program history
 
-The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQuery. Based on that class, the program is splitting into two tracks:
-
-- **Beginner track** on Mondays
-- **Advanced track** on Wednesdays
+The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQuery. I've talked with some individuals about planned lessons that I never taught. Those lessons and their answer keys are now in /beginner_old
 
 ## Schedule
 
-| Date | Track | Session | Materials |
-| --- | --- | --- | --- |
-| Mon, Oct 5, 2026 | All students | Session 0: SQL basics and BigQuery setup | [Outline](session0_outline.md) · [Answers](session0_answers.md) |
-| **Tue, Oct 13, 2026** (moved from Mon, Oct 12) | Beginner | Session 1: Getting data out | [Outline](beginner/session1_outline.md) · [Answers](beginner/session1_answers.md) |
-| Mon, Oct 19, 2026 | Beginner | Session 2: Summarizing data | [Outline](beginner/session2_outline.md) · [Answers](beginner/session2_answers.md) |
-| Mon, Oct 26, 2026 | Beginner | Session 3: Combining tables with JOINs | [Outline](beginner/session3_outline.md) · [Answers](beginner/session3_answers.md) |
-| Mon, Nov 2, 2026 | Beginner | Session 4: Real analysis and capstone | [Outline](beginner/session4_outline.md) · [Answers](beginner/session4_answers.md) |
-| Wednesdays (dates TBD) | Advanced | Topics to be set from the [student survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385kfjETJ7csArEWdHt6no6yw/viewform?usp=dialog) | Coming soon |
-
-**Schedule change:** Session 1 has moved from Monday, October 12 to Tuesday, October 13, 2026 because of Indigenous Peoples' Day.
-
-## Beginner track (Mondays)
-
-Four 2-hour sessions that take students from their first SELECT to a multi-table business analysis.
-
-1. **Getting data out:** SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
-2. **Summarizing data:** COUNT, SUM, AVG, GROUP BY, HAVING, NULLs
-3. **Combining tables:** INNER JOIN, LEFT JOIN, keys, avoiding double-counting
-4. **Real analysis:** dates, CASE WHEN, CTEs, and a capstone answering a marketing question
+| Date | Session | Materials |
+| --- | --- | --- |
+| Mon, Oct 5, 2026 | Session 0: SQL basics and BigQuery setup | [Outline](session0_outline.md) · [Answers](session0_answers.md) |
+| Tue, Oct 27, 2026 | Session 1: Joins (inner, left and self) | [Outline](session1_outline.md) · [Answers](session1_answers.md) |
 
 Each session has a student outline with concepts, examples and exercises, and a separate answer file with runnable queries.
-
-## Advanced track (Wednesdays)
-
-I'm thinking of doing advanced track on Wednesdays. Please fill out the [survey](https://docs.google.com/forms/d/e/1FAIpQLSct6cHzqfSbkK2TBo2PyUMQo385kfjETJ7csArEWdHt6no6yw/viewform?usp=dialog) with the list of topics requested on Monday, October 5, 2026. I will put together a schedule based on the results.
 
 ## Getting started
 
@@ -52,8 +30,8 @@ I'm thinking of doing advanced track on Wednesdays. Please fill out the [survey]
 | File | Contents |
 | --- | --- |
 | `session0_outline.md`, `session0_answers.md` | Session 0 notes and challenge answers |
-| `beginner/session1_outline.md` to `beginner/session4_outline.md` | Beginner track student outlines |
-| `beginner/session1_answers.md` to `beginner/session4_answers.md` | Beginner track answer keys |
+| `session1_outline.md`, `session1_answers.md` | Session 1 notes, exercises and answers |
+| `beginner_old/` | Earlier planned lessons that were never taught |
 | `images/` | Screenshots used in the Session 0 files |
 
 ## Notes
