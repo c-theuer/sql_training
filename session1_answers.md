@@ -48,7 +48,7 @@ ORDER BY never_ordered_products DESC;
 
 Sample result: Women 48, Men 8.
 
-`COUNT(*)` is safe here because each unmatched product produces exactly one row.
+`COUNT(DISTINCT p.id)` is the safer habit. Here `COUNT(*)` gives the same answer, because each unmatched product produces exactly one row, but counting distinct ids protects you if a later change to the join starts multiplying rows.
 
 ### 3. Coming back: self join
 
