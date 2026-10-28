@@ -18,7 +18,7 @@ Each answer says which join fits and why. theLook data is regenerated regularly,
 We only want sales that have a product, and products that have sales. Nothing without a match belongs in a revenue ranking.
 
 ```sql
-SELECT p.category, ROUND(SUM(i.sale_price), 2) AS revenue
+SELECT p.category, SUM(i.sale_price) AS revenue
 FROM `bigquery-public-data.thelook_ecommerce.order_items` AS i
 INNER JOIN `bigquery-public-data.thelook_ecommerce.products` AS p
   ON i.product_id = p.id
@@ -37,7 +37,7 @@ Sample result: Jeans, Outerwear & Coats, Sweaters, Suits & Sport Coats, Sleep & 
 The question is about products with **no** match in `order_items`. An inner join would throw away exactly the rows we're looking for. Put `products` on the left and keep the rows where the right side is NULL.
 
 ```sql
-SELECT p.department, COUNT(*) AS never_ordered_products
+SELECT p.department, COUNT(DISTINCT p.id) AS never_ordered_products
 FROM `bigquery-public-data.thelook_ecommerce.products` AS p
 LEFT JOIN `bigquery-public-data.thelook_ecommerce.order_items` AS i
   ON p.id = i.product_id
@@ -76,7 +76,7 @@ Sample result: 982 customers (out of 18,149 who ordered in that period).
 `order_items` doesn't know the distribution center, so we hop through `products`. Every sale has a product and every product has a center, and we don't need centers with no sales, so inner joins fit.
 
 ```sql
-SELECT dc.name AS distribution_center, ROUND(SUM(i.sale_price), 2) AS revenue
+SELECT dc.name AS distribution_center, SUM(i.sale_price) AS revenue
 FROM `bigquery-public-data.thelook_ecommerce.order_items` AS i
 INNER JOIN `bigquery-public-data.thelook_ecommerce.products` AS p
   ON i.product_id = p.id
