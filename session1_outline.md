@@ -311,7 +311,7 @@ All tables are in `bigquery-public-data.thelook_ecommerce`. "Revenue" means the 
 
 1. **Top categories.** The merchandising team wants the top 5 product categories by revenue in September 2026, counting only order items with a status of `Complete`.
 
-2. **Dead stock.** The buyer wants to clear out products that nobody has ever ordered. How many never-ordered products are there in each department?
+2. **Dead stock.** The buyer wants to clear out products that nobody has ever ordered. How many never-ordered products are there in each department? Cancelled items do NOT count as never ordered.
 
 3. **Coming back.** Marketing wants to know how loyal recent customers are. Of the orders placed between January 1 and June 30, 2026, how many distinct customers placed another order within 30 days after one of those orders?
 

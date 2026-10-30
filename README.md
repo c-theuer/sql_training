@@ -8,7 +8,7 @@ A SQL training series that teaches business and technical users how to use SQL t
 
 ## Program history
 
-The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQuery. I've talked with some individuals about planned lessons that I never taught. Those lessons and their answer keys are now in /beginner_old
+The program started on Monday, October 5, 2026 with Session 0: Setting Up BigQuery. I've talked with some individuals about planned lessons that I never taught. Those lessons and their answer keys are now in /beginner_old.
 
 ## Schedule
 
